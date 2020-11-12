@@ -1,0 +1,57 @@
+#header {
+	 position: absolute;
+	 width: 100px;
+	 top: 5px;
+	 background-color: #666;
+	 padding: 20px;
+	 height: 40px; 
+
+.vmenu {
+    width: 100px
+}
+
+.vmenu a {
+	 background-color: #eee;
+	 color: black;
+	 display: block;
+	 padding: 10px;
+	 text-decoration: none;
+	 width: 150px;
+}
+.vmenu a:hover {
+  background-color: #ccr;	
+}
+.vmenu a:active{
+	background-color: #4CAF50;
+	color: white;
+	width: 150px;	
+}
+
+#main {
+	position:absolute;
+	left: 15%;
+	right: 10%;
+	top: 85px;
+	height: 80%;
+	padding: 200px;
+	width: 90%;
+}
+#footer {
+	position: fixed;
+	bottom: 0px;
+	width: 100px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.login_err{
+	color:red;
+}
